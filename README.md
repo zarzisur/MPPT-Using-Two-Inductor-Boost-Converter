@@ -3,6 +3,10 @@
 The two inductor boost converter is an isolated topology. Its circuit diagram is like this:
 ![simulink](https://user-images.githubusercontent.com/35787202/126601790-6355d0fa-fcaf-478e-a6e8-5968deddc6fc.png)
 
+
+![TIBC waveform](https://user-images.githubusercontent.com/35787202/126628428-80a1a618-b4ea-42cd-b966-19ecc7141d4f.jpg)
+
+
 To analysis two inductor boost converter we have to keep in mind:
 	Input side current is controlled by inductor and there is no interference from output. Output current is a reflected part of input current.
 	Secondary voltage is controlled by rectifier capacitor voltage. Primary terminal voltage is a reflected part of secondary terminal voltage.
@@ -104,6 +108,8 @@ P_con=1.16*I_D(avg) +0.053*I_(D(rms))^2.
 Where, Id(avg)= average diode current.
 And, Id(rms)= root mean square current value.
 
+# MPPT Simulation Result
+![mppt_usin_TIBC](https://user-images.githubusercontent.com/35787202/126629170-c8af443a-0198-4037-97e5-a809b8b37500.jpg)
 
 # Design of Current fed push pull converter:
 Equation for output voltage, 
