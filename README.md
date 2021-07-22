@@ -104,7 +104,7 @@ Where, Id(avg)= average diode current.
 And, Id(rms)= root mean square current value.
 
 
-Design of Current fed push pull converter:
+# Design of Current fed push pull converter:
 Equation for output voltage, 
 V_o=n*V_in/(2*(1-D)).
 Where n=Ns/Np;
