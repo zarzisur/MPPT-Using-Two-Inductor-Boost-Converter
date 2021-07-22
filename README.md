@@ -120,7 +120,7 @@ Primary winding can be determined using this equation:
 N_P=(V_o*(1-D))/(n*A_C*B_m*f_s ).
 Secondary winding  can be determined using this equation:
 					
-N_P=(V_o*(1-D))/(A_C*B_m*f_s ).
+N_P=(V_o*(1-D))/(A_C* B_m* f_s ).
 
 Output Value of the capacitor:
 C=(P_o*(2D-1))/(4*y*V_o^2*f_s ).
