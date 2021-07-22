@@ -36,7 +36,7 @@ So,V_o=(2*n*V_in)/(1-D).
 
 
 
-# Design of Isolated Two Inductor Boost Converter for High voltage Gain Photovoltaic Application
+## Design of Isolated Two Inductor Boost Converter for High voltage Gain Photovoltaic Application
 
 
 Maximum Power=	213.5 Watt.
@@ -85,7 +85,8 @@ P_o=output power=my design specification
 
 
 
-Loss analysis of MOSFET and Diode:
+###Loss analysis of MOSFET and Diode:
+
 The losses of mosfet and diode can be classified into 2 parts: conduction loss and switching loss.
 Switching loss,P_sw=(V_DS*I_D*t_sw (off))/(2*T_sw ).
 t_sw (off)=time taken to turn off a switch.
@@ -113,7 +114,8 @@ Design of Inductor:
 Where , η=efficiency
 
 Inductance value, L=V_o/(16*n*f_s*〖ΔI〗_max ).
-Design of Transformer:
+
+## Design of Transformer:
 Primary winding can be determined using this equation:
 N_P=(V_o*(1-D))/(n*A_C*B_m*f_s ).
 Secondary winding  can be determined using this equation:
